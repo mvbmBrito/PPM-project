@@ -1,0 +1,72 @@
+.root{
+-fx-background-color: #caf0f8;
+}
+
+
+.button {
+    -fx-background-color: #3a86ff; /* Ferrari Red */
+    -fx-background-radius: 5;
+    -fx-border-color: #000000; /* Black border */
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+    -fx-border-style: solid;
+    -fx-text-fill: #000000; /* Ferrari Yellow */
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+    -fx-padding: 4 8;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 3, 0, 0, 0);
+    -fx-cursor: hand;
+
+}
+
+.label {
+-fx-font-family: "Lucida Console";
+-fx-font-size: 17px;
+-fx-text-fill:"000000"
+}
+
+#resetButton {
+-fx-background-color: #ffffff; /* Ferrari Red */
+    -fx-background-radius: 5;
+    -fx-border-color: #000000; /* Black border */
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+    -fx-border-style: solid;
+    -fx-text-fill: #3a86ff; /* Ferrari Yellow */
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 12px;
+}
+
+#voltarparatras {
+    -fx-background-color: #ffffff; /* Ferrari Red */
+    -fx-background-radius: 5;
+    -fx-border-color: #000000; /* Black border */
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+    -fx-border-style: solid;
+    -fx-text-fill: #3a86ff; /* Ferrari Yellow */
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 12px;
+}
+
+#mistakeLabel {
+-fx-font-family: "Lucida Console";
+-fx-font-size: 10px;
+-fx-text-fill: #d90429;
+}
+
+#finalPoints {
+-fx-font-size: 50px;
+}
+
+#repeatWord {
+-fx-font-family: "Lucida Console";
+-fx-font-size: 10px;
+-fx-text-fill: #d90429;
+}
+
+#correct {
+-fx-font-family: "Lucida Console";
+-fx-font-size: 17px;
+-fx-text-fill: #006400;
+}
